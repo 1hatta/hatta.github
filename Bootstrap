@@ -1,0 +1,117 @@
+   <!DOCTYPE html>
+<html>
+<head>
+<style>
+li{
+   display:inline-block;
+   padding:10px;}
+  a{
+    color:#20b2aa;
+    }
+    </style>
+    </head>
+    <body>
+       <! html semantik  >
+       <table width="100%"style="background-color:#collapse;">
+       <tr>
+     <td colokan="2" style="background-color:#1a1a1a;">text-align:center;">
+      <h3>style="fint-size:30px;color:#ff6a6a;">
+      Codemeals table-layout</h3>
+      </td>
+    </tr>
+    <!.. nav section.. >
+     <tr>
+    <td colspan="2" style="background-color:#666666;'>
+    <ul>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contac us</a></li>
+      </ul>
+                </td>
+       </tr>
+       <!.. main section  >
+     <tr>
+     <td style="background-color:#e6e6fa;width:80%;height:400px;text-align:center;">
+     <p>Apa itu Elemen Semantik?
+Jadi gini..
+Di awal-awal hadirnya HTML dulu, elemen semantik belum ada.
+Orang-orang membuat layout dengan menggunakan tag yang salah.
+Ada yang membuatnya dengan tagdan ada juga dengan tag
+Ini sebenarnya tidak sepenuhnya salah, karena membuat layout dengan kedua tag itu benar-benar bisa.
+Tapi..
+Ini bukanlah cara yang baik dan akan membuat kode HTML kita sulit terbaca.
+Karena itu.. hadirlah elemen semantik sebagai solusi.
+Elemen semantik mulai ditambahkan pada HTML 5.
+Elemen semantik adalah elemen-elemen yang menyatakan makna atau tujuan dari elemen itu sendiri.
+Misalnya tag tag ini digunakan untuk membuat elemen footer atau bagian kaki dari web.
+Jangan gunakan tag ini di bagian paling atas, karena maknanya sudah jelas untuk footer.
+Jadi tidak akan ada lagi yang namanya penyalahgunaan tag. Karena setiap tag sudah punya tujuan masing-masing.
+Berikut ini daftar elemen-elemen semantik:
+ untuk membuat elemen artikel;
+ untuk membuat elemen bagian samping;
+ untuk membuat elemen datail atau spoiler;
+untuk membuat teks caption pada figure;
+untuk membuat figur atau gambar pada artikel;
+<m untuk membuat elemen bagian kaki dari web untuk mebuat kepala kop dari web;
+<l untuk membuat elemen utama;
+untuk menandai teks;
+ untuk membuat navigasi;— untuk membuat bagian artikel;
+ untuk membuat ringkasan artikel atau isi spoiler;
+ untuk membuat elemen yang menyatakan waktu;
+dan masih banyak lagi.
+Mengapa Harus Pakai Elemen Semantik?
+Salah satu keuntungan menggunakan elemen semantik adalah dokumen HTML kita akan mudah dibaca, baik itu oleh manusia maupun mesin.</p>
+</td>
+<td style="background-color:#a7e6fb;height:400px;">
+<p>BOOTSTRAP OVERVIEW
+WHAT IS TWITTER BOOTSTRAP? 
+Bootstrap is a sleek, intuitive and powerful, mobile first front -end framework for faster and easier web development. It is uses html, CSS and JavaScript. 
+HISTORY
+Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter. It was released as an open source product in August 2011 on github. 
+WHY USE BOOTSTRAP? 
+•Mobile first approach - bootstrap 3,framework consists of mobile first styles throughout the entire library instead them of in separate files. 
+•browser support - it is supported by all popular browsers. 
+•easy to get started - with just the knowledge of html and CSS anyone can get started with bootstrap. Also the bootstrap official site has a good documentation. 
+•responsive design - bootstrap's responsive CSS adjust to desktops, tablets and mobiles. More about the responsive design is in the chapter bootstrap responsive design. 
+•provides a clean and uniform solution for building an interface for developers. 
+•it contains beautiful and functional built-in components which are easy to customized. 
+•it also provides web based customization. 
+•and best of all it is an open source. 
+WHAT BOOTSTRAP PACKAGE INCLUDES? 
+•scaffolding - bootstrap provides a basic structure with grid system, link styles, and background. This is is covered in detail in the section bootstrap basic structure. 
+CSS - bootstrap comes with the feature of global CSS settings, fundamental html elements styled and enhanced with extensible classes, and an advanced grid system, this is covered in detail in the section bootstrap with CSS. 
+•Components - bootstrap contains over a dozen reusable components built to provide iconography, dropdowns, navigation, alerts, Pop-overs, and much more components. 
+•javascript plugins - bootstrap contains over a dozen custom jQuery plugins. You can easily include them all, or one by one. This is covered in details in the section bootstrap plugins. 
+•customize - you can customize bootstrap's components, LESS variables, and jQuery plugins to get your very own version. 
+ BOOTSTRAP OVERVIEW
+APA ITU TWITTER BOOTSTRAP?
+Bootstrap adalah kerangka kerja front-end pertama yang ramping, intuitif dan kuat, seluler untuk pengembangan web yang lebih cepat dan lebih mudah. Ini menggunakan html, CSS dan JavaScript.
+SEJARAH
+Bootstrap dikembangkan oleh Mark Otto dan Jacob Thornton di Twitter. Ini dirilis sebagai produk open source pada Agustus 2011 di github.
+MENGAPA MENGGUNAKAN BOOTSTRAP?
+• Pendekatan pertama seluler - bootstrap 3, kerangka kerja terdiri dari gaya seluler pertama di seluruh perpustakaan alih-alih dalam file terpisah.
+• dukungan browser - didukung oleh semua browser populer.
+• mudah untuk memulai - hanya dengan pengetahuan tentang html dan CSS siapa pun dapat memulai dengan bootstrap. Juga situs resmi bootstrap memiliki dokumentasi yang bagus.
+•desain responsif - CSS responsif bootstrap menyesuaikan dengan desktop, tablet, dan ponsel. Lebih lanjut tentang desain responsif ada di bab desain responsif bootstrap.
+•menyediakan solusi yang bersih dan seragam untuk membangun antarmuka bagi pengembang.
+• berisi komponen built-in yang indah dan fungsional yang mudah disesuaikan.
+• juga menyediakan kustomisasi berbasis web.
+• dan yang terbaik dari semuanya adalah open source.
+APA YANG TERMASUK PAKET BOOTSTRAP?
+•scaffolding - bootstrap menyediakan struktur dasar dengan sistem grid, gaya tautan, dan latar belakang. Ini dibahas secara rinci di bagian struktur dasar bootstrap.
+CSS - bootstrap hadir dengan fitur pengaturan CSS global, elemen html mendasar yang ditata dan ditingkatkan dengan kelas yang dapat diperluas, dan sistem grid tingkat lanjut, ini dibahas secara rinci di bagian bootstrap dengan CSS.
+• Komponen - bootstrap berisi lebih dari selusin komponen yang dapat digunakan kembali yang dibuat untuk menyediakan ikonografi, dropdown, navigasi, peringatan, Pop-over, dan banyak lagi komponen lainnya.
+• plugin javascript - bootstrap berisi lebih dari selusin plugin jQuery kustom. Anda dapat dengan mudah memasukkan semuanya, atau satu per satu. Ini dibahas secara rinci di bagian plugin bootstrap.
+•customize - Anda dapat menyesuaikan komponen bootstrap, variabel KURANG, dan plugin jQuery untuk mendapatkan versi Anda sendiri.
+</p>
+</td>
+</tr>
+<!  footer section  >
+<tr>
+<td colspan="2" style="background-color:#2e2e2e;text-align:center;">
+<p style="color:#f08080">©<strong>copyright codemeals.com</strong></p>
+</td>
+</tr>
+</table>
+</body>
+</html>
